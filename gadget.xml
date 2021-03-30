@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+	<name>Digital Clock</name>
+	<namespace>Digital Clock namespace</namespace>
+	<version>1.0.0</version>
+	<author name="Gasper Senk">
+		<info url="mailto:senkgasper@hotmail.com?subject=Comments%20on%20Digital%20Clock%20gadget" text="mail" /> <!-- <a href="mailto:astark1@unl.edu?subject=Comments from MailTo Syntax Page"> -->
+		<logo src="logo.png" />
+	</author>
+	<copyright>no copyfag</copyright>
+	<description>Digital clock that shows time, day has am/pm or 24h mode and alarm function</description>
+	<icons>
+		<icon height="48" width="48" src="icon.png" />
+	</icons>
+	<hosts>
+		<host name="sidebar">
+			<autoscaleDPI>true</autoscaleDPI>
+			<base type="html" apiVersion="1.0.0" src="digital_clock.html" />
+			<permissions>full</permissions>
+			<platform minPlatformVersion="1.0" />
+			<defaultImage src="drag.png" />
+		</host>
+	</hosts>
+</gadget>

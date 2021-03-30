@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta http-equiv="MSThemeCompatible" CONTENT="yes" />
+	<meta http-equiv="Content-Type" content="text/html; charset=Unicode" />
+	<title>Digital Clock</title>
+	<link href="css/digital_clock.css" rel="stylesheet" type="text/css" />
+	<script src="js/digital_clock.js" language="javascript" type="text/javascript"></script>
+	<script src="js/settings.js" language="javascript" type="text/javascript"></script>
+</head>
+
+<body onload="loadMain()" onclick="gadgetClick();">
+	<g:background id="imgBackground" style="z-index:0" >
+	<div id="vse">
+		<table class="tabela" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td nowrap><span id="mode" class="normal"></span></td> 
+				<td align="right"><img id="zvonc"/><span id="alarm" class="normaltext"></span></td>
+			</tr>
+		</table>
+			<div style="text-align:center" nowrap><img id="ura1"/><img id="ura2"/><img id="divider"/><img id="min1"/><img id="min2"/><span style="font-size:26" id="sekunda"></span></div>
+			<div id="datum" class="datum"></div>
+			<div id="dan" style="text-align:center;font-size:24"></div>
+	</div>
+	</g:background>
+	<object id="Player" height="0" width="0" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">
+		<param name="autoStart" value="False">
+		<param name="uiMode" value="invisible">
+	</object>
+</body>
+</html>
